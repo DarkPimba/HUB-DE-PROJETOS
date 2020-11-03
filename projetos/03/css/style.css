@@ -321,8 +321,11 @@ section.sessao1{
     left: 0;
     top: 0;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 10px;
 
+}
+.map-wraper2 iframe{
+    border: 5px solid rgb(200, 200, 200);
 }
 .map{
     position: absolute;
