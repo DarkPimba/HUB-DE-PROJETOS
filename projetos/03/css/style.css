@@ -130,6 +130,28 @@ section.sessao1{
     left: -150px;
     top: -100px;
 }
+.sessao2{
+    padding-top: 80px 2%;
+    background-color: white;
+    text-align: center;
+}
+.sessao2 h2{
+    color: #482663;
+    font-weight: 300;
+}
+.sessao2 p{
+    margin-top: 30px;
+    max-width: 600px;
+    display: inline-block;
+    color:  #482663;    
+}
+.sessao2 img{
+    width: 100%;
+    margin-top: 40px;
+}
+.sessao2 .container{
+    width: 1000px;
+}
 @media screen and (max-width:1024px){
     section.sessao1{
         width: 100%;
@@ -184,5 +206,8 @@ section.sessao1{
         margin: 0 auto;
         text-align: center;
         
+    }
+    .sessao2{
+        padding-top: 40px;
     }
 }
