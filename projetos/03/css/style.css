@@ -131,7 +131,8 @@ section.sessao1{
     top: -100px;
 }
 .sessao2{
-    padding-top: 80px 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     background-color: white;
     text-align: center;
 }
@@ -146,11 +147,38 @@ section.sessao1{
     color:  #482663;    
 }
 .sessao2 img{
+    position: relative;
+    top: 70px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .sessao2 .container{
     width: 1000px;
+}
+.sessao3{
+    width: 100%;
+}
+.part1{
+    color: white;
+    float: left;
+    width: 50%;
+    padding: 140px 0;
+    background-color: #835FA7;
+}
+.part1 h2{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 23px;
+}
+.part1 p{
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.wraper-part1{
+    max-width: 600px;
+    float: right;
+    padding-right: 30px;
 }
 @media screen and (max-width:1024px){
     section.sessao1{
@@ -208,6 +236,6 @@ section.sessao1{
         
     }
     .sessao2{
-        padding-top: 40px;
+        padding: 40px 2%;
     }
 }
