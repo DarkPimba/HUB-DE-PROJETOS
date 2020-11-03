@@ -212,13 +212,13 @@ section.sessao1{
     font-weight: 300;
 }
 .titulo-autor .img-autor{
+    background-image: url('../img/actor1.png');
+    background-size: 100% 100%;
     float: left;
     width: 40px;
     height: 40px;
-    position: relative;
-    top: -4px;
     border-radius: 20px;
-    background-color: gray;
+    
 }
 .texto-autor{
     float: left;
