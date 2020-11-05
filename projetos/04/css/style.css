@@ -180,8 +180,53 @@ section.videos{
 section.videos .box-videos{
     float: left;
     width: 33.3%;
+    position: relative;
+    border: 5px solid white;
     padding-top: calc(33.3% * 0.6);
 }
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/***Termina videos***/
+
+section.tratamentos > h2{
+    font-size: 18px;
+    color: #698293;
+    text-align: center;
+}
+
+section.tratamentos{
+    padding: 70px 0;
+}
+section.tratamentos .container{
+    padding: 80px 0;
+}
+section.tratamentos .tratamento-container{
+    float: left;
+    width: 33.3%;
+}
+.tratamento-sigle{
+    padding: 20px;
+}
+.tratamentos h2{
+    font-size: 18px;
+    color: #737373;
+}
+.tratamentos p{
+    padding: 10px 0;
+    font-size: 13px;
+    color: #b4b4b4;
+}
+
+/***Termina Tratamentos***/
+
+
+
 @media screen and (max-width: 768px){
 
     nav.menu-desktop{
@@ -241,6 +286,17 @@ section.videos .box-videos{
         padding: 0 30px;
         text-align: center;
     }
+    section.videos{
+        text-align: center;
+    }
+    section.videos .box-videos{
+        float: none;
+        display: inline-block;
+        width: 70%;
+        border: 5px solid white;
+        padding-top: calc(70% * 0.6);
+    }
+
 
 }
 @media screen and (max-width: 580px){
@@ -250,6 +306,16 @@ section.videos .box-videos{
         padding-top: 110%;
         display: inline-block;
         height: auto;
+    }
+    section.videos{
+        text-align: center;
+    }
+    section.videos .box-videos{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        border: 5px solid white;
+        padding-top: calc(100% * 0.6);
     }
 
 }
