@@ -39,3 +39,19 @@ header ul a{
     color: #b4b4b4;
     text-decoration: none;
 }
+
+/***Termina-Header***/
+
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+}
+
+/***Termina-Mosaico***/
+
