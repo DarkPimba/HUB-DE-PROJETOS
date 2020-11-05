@@ -23,8 +23,30 @@ header .logo img{
     width: 236px;
 }
 nav.menu-mobile{
+    width: 28px;
+    height: 28px;
+    margin-top: 7px;
+    background-image: url('../img/menu-mobile.png');
+    background-size: 100% 100%;
+    cursor: pointer;
     display: none;
     float: right;
+}
+nav.menu-mobile ul{
+    z-index: 999;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+nav.menu-mobile ul li{
+    text-transform: uppercase;
+}
+nav.menu-mobile ul li{
+    padding: 10px 0;
 }
 header nav.menu-desktop{
     padding: 8px 0;
@@ -148,6 +170,18 @@ section.perfil-container .texto-perfil p{
     margin-top: 8px;
     color: #4b4b4b;
 }
+
+/***Termina Perfil***/
+
+
+section.videos{
+    padding: 50px 0;
+}
+section.videos .box-videos{
+    float: left;
+    width: 33.3%;
+    padding-top: calc(33.3% * 0.6);
+}
 @media screen and (max-width: 768px){
 
     nav.menu-desktop{
@@ -179,9 +213,14 @@ section.perfil-container .texto-perfil p{
         padding: 30px 2%;
         text-align: center;
     }
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
     section.perfil-container .perfil-wraper2{
+        position: static;
         text-align: center;
         display: inline-block;
+        height: auto;
         /*flex-direction: column;*/
     }
     section.perfil-container .img-perfil{
