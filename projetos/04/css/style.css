@@ -225,7 +225,35 @@ section.tratamentos .tratamento-container{
 
 /***Termina Tratamentos***/
 
-
+section.depoimentos > h2{
+    color: #698293;
+    font-size: 18px;
+    text-align: center; 
+}
+section.depoimentos > .container{
+    padding: 40px 0;
+    max-width: 450px;
+}
+sectiom.depoimentos .depoimento-single{
+    text-align: center;
+    padding: 0 2%;
+}
+.depoimento-single .nome-depoimento{
+    padding: 19px 0;
+}
+.depoimento-single .nome-depoimento img{
+    width: 32;
+    height: 32;
+    border-radius: 50%;
+}
+.nome-depoimento span{
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    color: #b4b4b4;
+    display: inline-block;
+    vertical-align: top;
+}
 
 @media screen and (max-width: 768px){
 
