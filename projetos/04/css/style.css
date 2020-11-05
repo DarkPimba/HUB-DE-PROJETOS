@@ -22,14 +22,18 @@ header .logo img{
     float: left;
     width: 236px;
 }
-header nav{
+nav.menu-mobile{
+    display: none;
+    float: right;
+}
+header nav.menu-desktop{
     padding: 8px 0;
     float: right;
 }
-header nav ul{
+header nav.menu-desktop ul{
     list-style-type: none;
 }
-header nav ul li{
+header nav.menu-desktop ul li{
     float: left;
     font-size: 14px;
     text-transform: uppercase;
@@ -61,6 +65,7 @@ section.servicos > .container{
     align-items: center;
     position: relative;
     top: -30px;
+    text-align: center;
 }
 section.servicos > .container .box-servico{
     background-image: url('../img/icone_dente.png');
@@ -91,6 +96,7 @@ section.servicos > .container .box-servico:nth-of-type(2){
     padding: 50px 2%;
     text-align: center;
     background-color: #688293;
+    background-image: none;
 }
 section.servicos > .container .box-servico:nth-of-type(3){
     width: 30%;
@@ -141,4 +147,77 @@ section.perfil-container .texto-perfil p{
     font-size: 14px;
     margin-top: 8px;
     color: #4b4b4b;
+}
+@media screen and (max-width: 768px){
+
+    nav.menu-desktop{
+        display: none;
+    }
+    nav.menu-mobile{
+        display: block;
+    }
+    section.servicos > .container{
+        flex-direction: column;
+        top: -15px;
+    }
+    section.servicos > .container .box-servico:nth-of-type(1){
+        max-width: 350px;
+        width: 90%;
+        padding: 30px 2%;
+        text-align: center;
+    }
+    section.servicos > .container .box-servico:nth-of-type(2){
+        max-width: 390px;
+        width: 94%;
+        padding: 40px 2%;
+        text-align: center;
+        background-image: none;
+    }
+    section.servicos > .container .box-servico:nth-of-type(3){
+        max-width: 350px;
+        width: 90%;
+        padding: 30px 2%;
+        text-align: center;
+    }
+    section.perfil-container .perfil-wraper2{
+        text-align: center;
+        display: inline-block;
+        /*flex-direction: column;*/
+    }
+    section.perfil-container .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+    section.perfil-container .texto-perfil{
+        display: inline-block;
+        width: 100%;
+        padding: 0 30px;
+        text-align: justify;
+    }
+    section.perfil-container .texto-perfil h2{
+        display: inline-block;
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 580px){
+    
+    section.perfil-container .img-perfil{
+        width: 80%;
+        padding-top: 110%;
+        display: inline-block;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 480px){
+    
+    header .logo img{
+        width: 170px;
+    }
+
 }
