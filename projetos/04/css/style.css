@@ -297,6 +297,64 @@ sectiom.depoimentos .depoimento-single{
     padding: 10px 0;
 }
 
+/***Termina social***/
+
+.contato{
+    padding: 60px 2%;
+}
+.contato > h2{
+    color: #698293;
+    font-size: 18px;
+    text-align: center;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+section.contato form{
+    width: 100%;
+    margin: 30px auto;
+    max-width: 500px;
+}
+.form-wraper{
+    float: left;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.form-wraper span{
+    font-size: 15px;
+    color: #b4b4b4;
+}
+.form-wraper input[type=text]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.form-wraper textarea{
+    width: 100%;
+    padding: 8px;
+    height: 121px;
+    resize: none;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.form-wraper input[type=submit]{
+    width: 100%;
+    height:  35px;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+}
+
+/***Termina Contato***/
+
 @media screen and (max-width: 1024px){
 
     .img-mosaico-single-social{
@@ -404,6 +462,9 @@ sectiom.depoimentos .depoimento-single{
         width: 100%;
         border: 5px solid white;
         padding-top: calc(100% * 0.6);
+    }
+    .w50{
+        width: 100%;
     }
 
 }
