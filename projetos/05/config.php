@@ -1,5 +1,5 @@
 <?php
 
-    define('INCLUDE_PATH','http://localhost/Projetos/Projeto-01/');
+    define('INCLUDE_PATH','https://juninpainel.000webhostapp.com/projetos/05/');
 
 ?>
